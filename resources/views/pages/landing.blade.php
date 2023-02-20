@@ -81,24 +81,6 @@
 		<li><a href="{{ url('colleges/52') }}">{!! url('colleges/52') !!}</a></li>
 		<li><a href="{{ url('colleges/52/chairs') }}">{!! url('colleges/52/chairs') !!}</a></li>
 	</ul>
-	<strong>Retrieves information about Committees</strong>
-	<ul>
-		<li><a href="{{ url('committees') }}">{!! url('committees') !!}</a></li>
-		<li><a href="{{ url('committees/atc') }}">{!! url('committees/atc') !!}</a></li>
-		<li><a href="{{ url('committees/aggab/members') }}">{!! url('committees/aggab/members') !!}</a></li>
-	</ul>
-	<strong>Retrieves information about Centers</strong>
-	<ul>
-		<li><a href="{{ url('centers') }}">{!! url('centers') !!}</a></li>
-		<li><a href="{{ url('centers/viscom') }}">{!! url('centers/viscom') !!}</a></li>
-		<li><a href="{{ url('centers/viscom/members') }}">{!! url('centers/viscom/members') !!}</a></li>
-	</ul>
-	<strong>Retrieves information about Institutes</strong>
-	<ul>
-		<li><a href="{{ url('institutes') }}">{!! url('institutes') !!}</a></li>
-		<li><a href="{{ url('institutes/ichwb') }}">{!! url('institutes/ichwb') !!}</a></li>
-		<li><a href="{{ url('institutes/ichwb/members') }}">{!! url('institutes/ichwb/members') !!}</a></li>
-	</ul>
 	<strong>Retrieves Faculty Listings</strong>
 	<ul>
 		<li><a href="{{ url('members/faculty/all') }}">{!! url('members/faculty/all') !!}</a></li>

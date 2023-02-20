@@ -15,11 +15,11 @@ $router->get('/', 'WelcomeController@index');
 $router->get('/about/version-history', 'WelcomeController@about');
 
 //Route for Centers
-$router->group(['prefix' => 'centers'], function($router) {
-    $router->get('/', 'CenterController@showAllCenters');
-    $router->get('/{center_id}', 'CenterController@showSpecificCenter');
-    $router->get('/{center_id}/members', 'CenterController@showMembers');
-});
+// $router->group(['prefix' => 'centers'], function($router) {
+//     $router->get('/', 'CenterController@showAllCenters');
+//     $router->get('/{center_id}', 'CenterController@showSpecificCenter');
+//     $router->get('/{center_id}/members', 'CenterController@showMembers');
+// });
 
 //Routes for Colleges
 $router->group(['prefix' => 'colleges'], function ($router) {
@@ -30,11 +30,11 @@ $router->group(['prefix' => 'colleges'], function ($router) {
 });
 
 //Routes for Committees
-$router->group(['prefix' => 'committees'], function($router) {
-    $router->get('/', 'CommitteeController@showCommittees');
-    $router->get('/{committee_id}/members', 'CommitteeController@showMembers');
-    $router->get('/{committee_id}', 'CommitteeController@showCommittee');
-});
+// $router->group(['prefix' => 'committees'], function($router) {
+//     $router->get('/', 'CommitteeController@showCommittees');
+//     $router->get('/{committee_id}/members', 'CommitteeController@showMembers');
+//     $router->get('/{committee_id}', 'CommitteeController@showCommittee');
+// });
 
 //Routes for Departments
 $router->group(['prefix' => 'departments'], function($router) {
@@ -48,11 +48,11 @@ $router->group(['prefix' => 'departments'], function($router) {
 });
 
 //Route for Institutes
-$router->group(['prefix' => 'institutes'], function($router) {
-    $router->get('/', 'InstituteController@showAllInstitutes');
-    $router->get('/{institute_id}', 'InstituteController@showSpecificInstitute');
-    $router->get('/{institute_id}/members', 'InstituteController@showMembers');
-});
+// $router->group(['prefix' => 'institutes'], function($router) {
+//     $router->get('/', 'InstituteController@showAllInstitutes');
+//     $router->get('/{institute_id}', 'InstituteController@showSpecificInstitute');
+//     $router->get('/{institute_id}/members', 'InstituteController@showMembers');
+// });
 
 // Routes for Members
 $router->group(['prefix' => 'members'], function($router) {
