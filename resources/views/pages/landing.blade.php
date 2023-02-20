@@ -60,60 +60,60 @@
 	<h3>Examples</h3>
 	<strong>Retrieves information of a single entity</strong> (phasing out soon)
 	<ul>
-		<li><a href="{{ url('api/members/email/'.$email) }}">{!! url('api/members/email/'.$email) !!}</a></li>
+		<li><a href="{{ url('members/email/'.$email) }}">{!! url('members/email/'.$email) !!}</a></li>
 	</ul>
 	<strong>Retrieves information of Departments</strong>
 	<ul>
-		<li><a href="{{ url('api/departments') }}">{!! url('api/departments') !!}</a></li>
-		<li><a href="{{ url('api/departments/administrative') }}">{!! url('api/departments/administrative') !!}</a></li>
-		<li><a href="{{ url('api/departments/189') }}">{!! url('api/departments/189') !!}</a></li>
-		<li><a href="{{ url('api/departments/10132') }}">{!! url('api/departments/10132') !!}</a></li>
-		<li><a href="{{ url('api/departments/189/members') }}">{!! url('api/departments/189/members') !!}</a></li>
-		<li><a href="{{ url('api/departments/189/faculty/all') }}">{!! url('api/departments/189/faculty/all') !!}</a></li>
-		<li><a href="{{ url('api/departments/189/faculty/all/degrees') }}">{!! url('api/departments/189/faculty/all/degrees') !!}</a></li>
-		<li><a href="{{ url('api/departments/189/coordinator') }}">{!! url('api/departments/189/coordinator') !!}</a></li>
-		<li><a href="{{ url('api/departments/10132/members') }}"> {!! url('api/departments/10132/members') !!}</a></li>
+		<li><a href="{{ url('departments') }}">{!! url('departments') !!}</a></li>
+		<li><a href="{{ url('departments/administrative') }}">{!! url('departments/administrative') !!}</a></li>
+		<li><a href="{{ url('departments/189') }}">{!! url('departments/189') !!}</a></li>
+		<li><a href="{{ url('departments/10132') }}">{!! url('departments/10132') !!}</a></li>
+		<li><a href="{{ url('departments/189/members') }}">{!! url('departments/189/members') !!}</a></li>
+		<li><a href="{{ url('departments/189/faculty/all') }}">{!! url('departments/189/faculty/all') !!}</a></li>
+		<li><a href="{{ url('departments/189/faculty/all/degrees') }}">{!! url('departments/189/faculty/all/degrees') !!}</a></li>
+		<li><a href="{{ url('departments/189/coordinator') }}">{!! url('departments/189/coordinator') !!}</a></li>
+		<li><a href="{{ url('departments/10132/members') }}"> {!! url('departments/10132/members') !!}</a></li>
 	</ul>
 	<strong>Retrieves information of Colleges</strong>
 	<ul>
-		<li><a href="{{ url('api/colleges') }}">{!! url('api/colleges') !!}</a></li>
-		<li><a href="{{ url('api/colleges/chairs') }}">{!! url('api/colleges/chairs') !!}</a></li>
-		<li><a href="{{ url('api/colleges/52') }}">{!! url('api/colleges/52') !!}</a></li>
-		<li><a href="{{ url('api/colleges/52/chairs') }}">{!! url('api/colleges/52/chairs') !!}</a></li>
+		<li><a href="{{ url('colleges') }}">{!! url('colleges') !!}</a></li>
+		<li><a href="{{ url('colleges/chairs') }}">{!! url('colleges/chairs') !!}</a></li>
+		<li><a href="{{ url('colleges/52') }}">{!! url('colleges/52') !!}</a></li>
+		<li><a href="{{ url('colleges/52/chairs') }}">{!! url('colleges/52/chairs') !!}</a></li>
 	</ul>
 	<strong>Retrieves information about Committees</strong>
 	<ul>
-		<li><a href="{{ url('api/committees') }}">{!! url('api/committees') !!}</a></li>
-		<li><a href="{{ url('api/committees/atc') }}">{!! url('api/committees/atc') !!}</a></li>
-		<li><a href="{{ url('api/committees/aggab/members') }}">{!! url('api/committees/aggab/members') !!}</a></li>
+		<li><a href="{{ url('committees') }}">{!! url('committees') !!}</a></li>
+		<li><a href="{{ url('committees/atc') }}">{!! url('committees/atc') !!}</a></li>
+		<li><a href="{{ url('committees/aggab/members') }}">{!! url('committees/aggab/members') !!}</a></li>
 	</ul>
 	<strong>Retrieves information about Centers</strong>
 	<ul>
-		<li><a href="{{ url('api/centers') }}">{!! url('api/centers') !!}</a></li>
-		<li><a href="{{ url('api/centers/viscom') }}">{!! url('api/centers/viscom') !!}</a></li>
-		<li><a href="{{ url('api/centers/viscom/members') }}">{!! url('api/centers/viscom/members') !!}</a></li>
+		<li><a href="{{ url('centers') }}">{!! url('centers') !!}</a></li>
+		<li><a href="{{ url('centers/viscom') }}">{!! url('centers/viscom') !!}</a></li>
+		<li><a href="{{ url('centers/viscom/members') }}">{!! url('centers/viscom/members') !!}</a></li>
 	</ul>
 	<strong>Retrieves information about Institutes</strong>
 	<ul>
-		<li><a href="{{ url('api/institutes') }}">{!! url('api/institutes') !!}</a></li>
-		<li><a href="{{ url('api/institutes/ichwb') }}">{!! url('api/institutes/ichwb') !!}</a></li>
-		<li><a href="{{ url('api/institutes/ichwb/members') }}">{!! url('api/institutes/ichwb/members') !!}</a></li>
+		<li><a href="{{ url('institutes') }}">{!! url('institutes') !!}</a></li>
+		<li><a href="{{ url('institutes/ichwb') }}">{!! url('institutes/ichwb') !!}</a></li>
+		<li><a href="{{ url('institutes/ichwb/members') }}">{!! url('institutes/ichwb/members') !!}</a></li>
 	</ul>
 	<strong>Retrieves Faculty Listings</strong>
 	<ul>
-		<li><a href="{{ url('api/members/faculty/all') }}">{!! url('api/members/faculty/all') !!}</a></li>
-		<li><a href="{{ url('api/members/faculty/tenure-track') }}">{!! url('api/members/faculty/tenure-track') !!}</a></li>
-		<li><a href="{{ url('api/members/faculty/tenure-track/a') }}">{!! url('api/members/faculty/tenure-track/a') !!}</a></li>
-		<li><a href="{{ url('api/members/faculty/emeriti') }}">{!! url('api/members/faculty/emeriti') !!}</a></li>
-		<li><a href="{{ url('api/members/faculty/emeriti/degrees/m') }}">{!! url('api/members/faculty/emeriti/degrees/m') !!}</a></li>
-		<li><a href="{{ url('api/members/faculty/lecturer') }}">{!! url('api/members/faculty/lecturer') !!}</a></li>
+		<li><a href="{{ url('members/faculty/all') }}">{!! url('members/faculty/all') !!}</a></li>
+		<li><a href="{{ url('members/faculty/tenure-track') }}">{!! url('members/faculty/tenure-track') !!}</a></li>
+		<li><a href="{{ url('members/faculty/tenure-track/a') }}">{!! url('members/faculty/tenure-track/a') !!}</a></li>
+		<li><a href="{{ url('members/faculty/emeriti') }}">{!! url('members/faculty/emeriti') !!}</a></li>
+		<li><a href="{{ url('members/faculty/emeriti/degrees/m') }}">{!! url('members/faculty/emeriti/degrees/m') !!}</a></li>
+		<li><a href="{{ url('members/faculty/lecturer') }}">{!! url('members/faculty/lecturer') !!}</a></li>
 	</ul>
 	<h2 id="subcollections">Subcollections</h2>
 	<h3>Examples</h3>
 	<strong>Retrieves information of a single entity</strong><br />
 	<ul>
 		<li>
-			<a href="{{ url('api/members?email='.$email) }}">{!! url('api/members?email='.$email) !!}</a>
+			<a href="{{ url('members?email='.$email) }}">{!! url('members?email='.$email) !!}</a>
 		</li>
 	</ul>
 	<h2 id="code-samples">Usage Example</h2>
@@ -134,7 +134,7 @@
 // and a &lt;div&gt; element with the ID of "directory-results"
 
 // query the information for computer science
-var url = '{!! url('api/departments/189') !!}';
+var url = '{!! url('departments/189') !!}';
 $(document).ready(function() {
 
 	// perform a shorthand AJAX call to grab the information
@@ -170,7 +170,7 @@ $(document).ready(function() {
 					<pre>
 						<code class="prettyprint lang-php">
 // query all the information for Computer Science
-$url = "https://api.metalab.csun.edu/directory/api/departments/189";
+$url = ''{!! url('departments/189') !!}'';
 
 //add extra necessary options
 $arrContextOptions=array(
@@ -209,7 +209,7 @@ import urllib2
 import json
 
 #query all the information for Computer Science
-url = u'{!! url('api/departments/189') !!}'
+url = u'{!! url('departments/189') !!}'
 
 #try to read the data	
 try:
@@ -251,7 +251,7 @@ require 'net/http'
 require 'json'
 
 #query all the information for Computer Science
-source = '{!! url('api/departments/189') !!}'
+source = '{!! url('departments/189') !!}'
 
 #call data
 response = Net::HTTP.get_response(URI.parse(source))
