@@ -59,7 +59,6 @@ $app->singleton(
 */
 
 $app->configure('app');
-$app->configure('cors');
 
 /*
 |--------------------------------------------------------------------------
@@ -71,10 +70,6 @@ $app->configure('cors');
 | route or middleware that'll be assigned to some specific routes.
 |
 */
-
-$app->middleware([
-    Fruitcake\Cors\HandleCors::class,
-]);
 
  $app->routeMiddleware([
      'modify-data' => App\Http\Middleware\CheckApiKey::class,
@@ -91,7 +86,6 @@ $app->middleware([
 |
 */
 
-$app->register(Fruitcake\Cors\CorsServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
 
